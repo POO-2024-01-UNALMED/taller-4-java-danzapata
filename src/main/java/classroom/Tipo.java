@@ -5,12 +5,13 @@ public enum Tipo {
 	
 	public int codigo;
 	public String nombre;
-	private Tipo(int entero, String name) {
+
+	Tipo(int entero, String name) {
 		this.codigo = entero;
 		this.nombre = name;
 	}
 
-	private Tipo(int codigo) {
+	Tipo(int codigo) {
 		this(codigo, "Sin nombre");
 	}
 }
