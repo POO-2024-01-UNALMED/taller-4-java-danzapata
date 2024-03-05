@@ -12,6 +12,7 @@ public class Persona {
 
     public Persona() {
         this.nombre = "";
+        this.cedula = 0;
         totalPersonas++;
     }
 
