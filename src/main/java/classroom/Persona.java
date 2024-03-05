@@ -11,7 +11,7 @@ public class Persona {
     }
 
     public Persona() {
-        this.nombre = "Sin nombre";
+        this.nombre = "";
         totalPersonas++;
     }
 
